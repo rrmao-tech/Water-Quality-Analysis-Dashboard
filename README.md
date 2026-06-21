@@ -1,71 +1,91 @@
-# 🌊 Water Quality Analysis Dashboard (Power BI)
+# 🌊 Watershed Water Quality Intelligence Dashboard
 
 ## 📌 Project Overview
-This project analyzes water quality data to understand how rainfall, land use, and pollution events affect ecosystem health.
+This project presents an interactive Power BI dashboard designed to analyze water quality dynamics across a watershed system.  
 
-The dashboard provides interactive insights into:
-- Nutrient pollution (Nitrogen & Phosphorus)
-- Turbidity changes due to rainfall
-- Impact of pollution events on fish population
+It integrates environmental variables including rainfall, land use, nutrient concentration, and ecological response indicators to identify pollution drivers and ecosystem risk patterns.
+
+The goal is to support **data-driven environmental decision-making and watershed management strategies**.
+
+---
+
+## 🎯 Business / Environmental Objective
+To identify:
+- Key drivers of water quality degradation
+- Spatial differences in nutrient pollution
+- Impact of rainfall and land use on turbidity and nutrients
+- Ecological consequences of pollution events
 
 ---
 
 ## 📊 Key Insights
 
-- Agricultural land shows the highest nutrient pollution levels.
-- Rainfall is positively correlated with turbidity, indicating runoff effects.
-- Pollution events significantly reduce fish population density.
-- Forest areas consistently maintain the best water quality conditions.
+- Agricultural land use is the primary contributor to nutrient (phosphorus) pollution.
+- Rainfall events increase turbidity through runoff and sediment transport.
+- Forest areas act as natural buffers, maintaining stable water quality.
+- Pollution events are associated with significant reductions in fish population.
 
 ---
 
-## ⚙️ Data Processing
+## 🧠 Analytical Approach
 
-- Cleaned missing values and handled inconsistent records.
-- Standardized Station_ID and Land_Use categories.
-- Created calculated measures for averages and KPI indicators.
+- Data cleaning and preprocessing in Power Query
+- DAX measures for KPI calculations (Avg Phosphorus, DO, Turbidity)
+- Interactive filtering via slicers (Date, Station, Land Use, Metrics)
+- Comparative environmental impact analysis across land-use categories
 
 ---
 
 ## 📈 Dashboard Features
 
-- Interactive slicers (Date, Station, Land Use)
-- Water quality metric selector (pH, DO, Turbidity, Nutrients)
-- KPI cards for key environmental indicators
-- Multi-factor analysis of environmental drivers
+- Dynamic KPI cards (Phosphorus, DO, Turbidity, WQI indicator)
+- Land-use environmental comparison charts
+- Rainfall vs turbidity correlation analysis
+- Pollution impact assessment on aquatic ecosystems
+- Metric selector for multi-variable exploration
 
 ---
 
-## 🎯 Recommendations
+## ⚠️ Environmental Implications
 
-- Implement agricultural buffer zones to reduce runoff.
-- Improve urban stormwater management systems.
-- Increase monitoring during rainfall events.
-- Focus on high-risk stations for targeted intervention.
-
----
-
-## 🖼️ Dashboard Preview
-
-### Page 1
-![Dashboard](Images/page1_dashboard.png)
-
-### Page 2
-![Analysis](Images/page2_analysis.png)
-
-### Page 3
-![Summary](Images/page3_summary.png)
+- Agricultural runoff is the dominant source of nutrient pollution
+- Urban stormwater contributes to persistent diffuse contamination
+- Rainfall amplifies pollutant transport into water bodies
+- Ecosystem stability is strongly dependent on land-use planning
 
 ---
 
-## 🛠 Tools Used
+## 🧭 Recommendations
+
+- Establish agricultural buffer zones to reduce nutrient runoff
+- Improve urban stormwater drainage and filtration systems
+- Implement high-frequency monitoring during rainfall periods
+- Prioritize interventions at high-risk pollution stations
+
+---
+
+## 🖼 Dashboard Preview
+
+### Overview Dashboard
+![Overview](images/dashboard_overview.png)
+
+### Environmental Analysis
+![Analysis](images/environmental_analysis.png)
+
+### Executive Summary
+![Summary](images/executive_summary.png)
+
+---
+
+## 🛠 Tools & Technologies
 - Power BI Desktop
-- DAX (Measures & KPIs)
-- Data Modeling
-- Visualization & Analytics
+- DAX (Data Analysis Expressions)
+- Power Query (Data Cleaning)
+- Data Visualization & Storytelling
 
 ---
 
-## 📌 Author:  R.R.MAO
-Environmental Data Analysis Project – Water Quality Monitoring Study
+## 👤 Author: R.R.MAO
+Environmental Data Analyst Portfolio Project  
+Focused on Water Quality Monitoring & Sustainability Analytics
 
