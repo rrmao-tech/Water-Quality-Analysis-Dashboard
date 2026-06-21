@@ -1,4 +1,5 @@
 # 🌊 Watershed Water Quality Intelligence Dashboard
+Multi-Factor Environmental Risk Analysis Using Power BI
 
 ## 📌 Project Overview
 This project presents an interactive Power BI dashboard designed to analyze water quality dynamics across a watershed system.  
